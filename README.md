@@ -1,16 +1,16 @@
 # Genetic Auto ML
-_(implemented for the Machine Learning course at TU Wien)_
+_(Implemented for the Machine Learning course at TU Wien)_
 
-We develop a genetic algorithm that can select from different machine learning algorithms and automatically tunes their hyperparameters. Our evaluation shows that it gets almost as good results as TPOT and H2O and it some rare cases even slightly beats H2O.  
+We implement a genetic algorithm that can select from different machine learning algorithms and automatically tune their hyperparameters. Our evaluation shows that it gets almost as good results as TPOT and H2O and in some rare cases even slightly beats H2O.  
 In its current state it supports  Random Forest (sklearn), XGB, Ridge (sklearn) and Radius Neighbors Classifiers (sklearn). It can easily be adapted to support more classifiers and to also support feature selection.
 
 
 ## Evaluation
 Evaluation was done on 4 small datasets:
-- Abalone
-- Car Evaluation
-- Tic-Tac-Toe
-- Letter Recognition
+- [Abalone](https://archive.ics.uci.edu/ml/datasets/Abalone)
+- [Car Evaluation](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
+- [Tic-Tac-Toe Endgames](https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame)
+- [Letter Recognition](https://archive.ics.uci.edu/ml/datasets/Letter+Recognition) (due to limited computing resources we only used the first 5000 rows of this dataset)
 
 On each dataset we let all three AutoML algorithms run for an hour each (in total 12h). As a score we use f1-macro (higher is better). The results can be seen here:
 
