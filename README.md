@@ -18,8 +18,7 @@ On each dataset we let all three AutoML algorithms run for an hour each (in tota
 
 ## Interesting Graphs
 
-<img src="/Pictures/aba_algo_score.png" alt="Results" width="400">
-<img src="/Pictures/car_algo_distribution.png" alt="Results" width="400">
-<img src="/Pictures/car_algo_score.png" alt="Results" width="400">
-<img src="/Pictures/ttt_algo_score.png" alt="Results" width="400">
+<img src="/Pictures/aba_algo_score.png" alt="Results" width="400"> <img src="/Pictures/car_algo_score.png" alt="Results" width="400">
+<img src="/Pictures/ttt_algo_score.png" alt="Results" width="400"> <img src="/Pictures/car_algo_distribution.png" alt="Results" width="400">
+
 <img src="/Pictures/parallelisation.png" alt="Results" width="400">
